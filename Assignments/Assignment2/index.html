@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bus Booking System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="Header">
+            <img src="Buslogo.png" height="100px" width="100px">
+            <h1>Bus Booking System</h1>
+        </div>
+        <div id="UserInfo">
+            <h1>User Information</h1>
+        </div>
+        <div >
+            <form id="FormData">
+                <label  for="User name">
+                    User name:
+                    <input type="text">
+                </label>
+                <br>
+                <label for="User Age">
+                    User age:
+                    <input type="number">
+                </label>
+                <br>
+                <label for="Adhaar Number">
+                    Adhaar Number:
+                    <input type="text">
+                </label>
+                <br>
+                <label for="City">
+                    Select your city:
+                    <select name="City" id="">
+                        <option value="">Delhi</option>
+                        <option value="">Agra</option>
+                        <option value="">Vrindavan</option>
+                        <option value="">Barsana</option>
+                    </select>
+                </label>
+                <br>
+                <label for="Select Date">
+                    Select Date:
+                    <input type="datetime-local" name="" id="">
+                </label>
+            </form>
+        </div>
+        <div id="SecondHeader">
+            <h1>Bus Information</h1>
+        </div>
+        <div id="BusType">
+            <h4>Select your Bus type :</h4>
+            <label for="Ac Bus">
+                AC Bus:2000
+                <input type="radio">
+            </label>
+            <br>
+            <label for="Non-AC">
+                Non AC Bus : 1500
+                <input type="radio">
+            </label>
+            <br>
+            <label for="Seat">
+                Select your seat:
+                <select name="Seat no." id="">
+                    <option value="">1</option>
+                    <option value="">2</option>
+                    <option value="">3</option>
+                    <option value="">4</option>
+                    <option value="">5</option>
+                    <option value="">6</option>
+                    <option value="">7</option>
+                    <option value="">8</option>
+                    <option value="">9</option>
+                    <option value="">10</option>
+                </select>
+            </label>
+            <br>
+            <button>Buy Now</button>
+        </div>
+    </div>
+</body>
+</html>
